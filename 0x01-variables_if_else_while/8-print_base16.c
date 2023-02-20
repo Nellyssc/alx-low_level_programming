@@ -2,7 +2,7 @@
 /**
  *main - entry
  *description - hexadecimal printing
- *Return 0 always
+ *Return: 0 always (succsess)
  */
 int main(void)
 {
