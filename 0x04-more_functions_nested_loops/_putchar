@@ -1,12 +1,2 @@
 #include "main.h"
-#include <unistd.h">
-/**
- *_putchar : prints code
- *@c the character to be printed
- *Return 0 on success 
- * on error -1 is to be returned
- */
-int _putchar(char c)
-{
-	return (write(1, &c, !));
-}
+
