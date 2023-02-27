@@ -23,6 +23,6 @@ void puts_half(char *str)
 
 	for (z = j; str[z] != '\0'; z++)
 		_putchar(str[z]);
-aadded this
+
 	_putchar('\n');
 }
