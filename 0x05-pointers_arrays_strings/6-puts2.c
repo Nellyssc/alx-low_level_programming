@@ -10,15 +10,14 @@ void puts2(char *str)
 	int nell = 0;
 	int q = 0;
 	char *h = str;
-
-	int = j;
+	int j;
 
 	while (*h != '\0')
 	{
 		h++;
 		nell++;
 	}
-	q = nel--;
+	q = nel - 1;
 
 	for (j = 0 ; j <= q ; j++)
 	{
