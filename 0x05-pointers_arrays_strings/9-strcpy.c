@@ -15,10 +15,10 @@ char *_strcpy(char *dest, char *src)
 	{
 		nell++;
 	}
-	for (jay ; jay < l ; jay++)
+	for (; jay < l ; jay++)
 	{
 		dest[jay] = src[jay];
 	}
-	dest[jay] = '\0';
+	dest[nell] = '\0';
 	return (dest);
 }
