@@ -15,7 +15,7 @@ void puts2(char *str)
 
 	while (*h != '\0')
 	{
-		p++;
+		h++;
 		nell++;
 	}
 	q = nel--;
